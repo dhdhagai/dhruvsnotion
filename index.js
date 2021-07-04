@@ -1,6 +1,6 @@
 const express = require('express')
 const getVideos = require('./services/notion')
-const PORT = process.env.PORT || 80
+const PORT = process.env.PORT || 8000
 
 const app = express()
 
